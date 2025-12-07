@@ -118,6 +118,21 @@ body {
   background-color: #d8b46a;
 }
 
+/* Space between the two buttons */
+.contact-form button + button {
+  margin-top: 0.5rem;
+}
+
+/* Save Data button (distinct wood-tone coloring) */
+.contact-form .save-data {
+  background-color: #b68c3a;
+  color: #fff8e7;
+}
+
+.contact-form .save-data:hover {
+  background-color: #d0a857;
+}
+
 /* ============================
    FOOTER
    ============================ */
