@@ -164,3 +164,19 @@ body {
     flex: 1;
   }
 }
+
+/* Fix dynamic service card layout */
+#services-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+/* Ensure images inside service cards display properly */
+#services-list .card-img-top {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
